@@ -5,7 +5,7 @@ from panelizer.interface import panelize_from_ui
 
 # Mock implementation
 
-class PanelizerUI(App):
+class Panelizer(App):
     CSS_PATH = "style.css"
 
     def compose(self) -> ComposeResult:
@@ -32,4 +32,7 @@ class PanelizerUI(App):
 
 
 def run():
-    PanelizerUI().run()
+    Panelizer().run()
+
+def cli_entry():
+    Panelizer().run()

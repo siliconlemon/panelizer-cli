@@ -1,10 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "panelizer-cli"
 version = "0.1.0"
-description = "A CLI tool for carousel panel layout"
-requires-python = ">=3.11"
+description = "A CLI tool for laying out instagram-ready carousel panels"
+authors = [
+    {name = "Your Name", email = "you@example.com"}
+]
 dependencies = [
     "textual>=0.40.0",
     "pillow>=10.0.0",
     "rich>=13.0.0"
 ]
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = [
+    "pytest~=8.4.1"
+]
+
+[project.scripts]
+panelizer = "panelizer.app:cli_entry"
+
+[tool.setuptools.packages.find]
+where = ["panelizer"]
