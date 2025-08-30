@@ -2,9 +2,10 @@
 __pycache__/
 *.py[cod]
 *.egg-info/
+*.log
+*.spec
 dist/
 build/
-*.log
 
 # virtualenv
 venv/
