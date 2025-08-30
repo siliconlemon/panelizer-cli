@@ -4,8 +4,7 @@
 
 # panelizer-cli
 
-A CLI tool for laying out portrait or landscape images into clean, instagram-ready carousel panels. Puts images into one or more 2000×2500px (instagram-ready) portrait panels, based on image width thresholds like 16:9. Free and open-source forever - fork this or open a PR if you think of a cool new feature.
-
+A CLI tool for laying out portrait or landscape images into clean, instagram-ready carousel panels.
 ## Features
 
 - Fast and lightweight CLI
@@ -18,7 +17,7 @@ This project is open-source and free, forever.
 
 ## Contributions
 
-Open to issues and pull requests. If you’ve got an idea, improvement, or a weird edge case, let me know.
+Open to issues and pull requests. If you’ve got a cool idea, improvement suggestion, or a weird edge case, let me know.
 
 ## License
 
