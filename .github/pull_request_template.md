@@ -1,4 +1,4 @@
-\## Changes
+## Changes
 
 
 
@@ -6,7 +6,7 @@
 
 
 
-\## Motivation
+## Motivation
 
 
 
@@ -14,11 +14,11 @@
 
 
 
-\## Checklist
+## Checklist
 
 
 
-\- \[ ] I’ve tested my code
+- [ ] I’ve tested my code
 
-\- \[ ] My changes follow the repo's style and goals
+- [ ] My changes follow the repo's style and goals
 
