@@ -6,3 +6,6 @@ pillow>=10.0.0
 
 # Rich text in console/logs
 rich>=13.0.0
+
+# Testing
+pytest~=8.4.1
