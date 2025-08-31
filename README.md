@@ -33,7 +33,7 @@ Reminder:
 
 - **Check Path**: Don't be a dummy and make sure that your interpreter is added to Windows' system *Path* variable. 
 
-    Otherwise, you'll get something like this: `$ python -m panelizer/app Python was not found; run without arguments to install from the Microsoft Store, 
+    Otherwise, you'll get something like this: `Python was not found; run without arguments to install from the Microsoft Store, 
       or disable this shortcut from...`
       
 
